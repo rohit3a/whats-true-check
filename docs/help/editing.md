@@ -8,3 +8,5 @@ covers:
 # Editing
 
 Open a document and type. Your changes are saved as you go.
+
+Use search to find text in a document.
