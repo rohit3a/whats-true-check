@@ -8,3 +8,4 @@ covers:
 # Terms
 
 These terms cover your use of this test product. Write to the address on the contact page with any question.
+This page shows the current version of these terms.
