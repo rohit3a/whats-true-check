@@ -1,0 +1,11 @@
+name: what's true?
+on:
+  pull_request:
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: rohit3a/whatstrue-action@v1
